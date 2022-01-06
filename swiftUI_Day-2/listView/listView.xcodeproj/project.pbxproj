@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2A3E929278754F1006A7C01 /* listViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E928278754F1006A7C01 /* listViewApp.swift */; };
-		E2A3E92B278754F1006A7C01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E92A278754F1006A7C01 /* ContentView.swift */; };
+		E2A3E92B278754F1006A7C01 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E92A278754F1006A7C01 /* VideoListView.swift */; };
 		E2A3E92D278754F5006A7C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A3E92C278754F5006A7C01 /* Assets.xcassets */; };
 		E2A3E930278754F5006A7C01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A3E92F278754F5006A7C01 /* Preview Assets.xcassets */; };
 		E2A3E932278754F5006A7C01 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E931278754F5006A7C01 /* Persistence.swift */; };
@@ -16,6 +16,8 @@
 		E2A3E93F278754F5006A7C01 /* listViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E93E278754F5006A7C01 /* listViewTests.swift */; };
 		E2A3E949278754F5006A7C01 /* listViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E948278754F5006A7C01 /* listViewUITests.swift */; };
 		E2A3E94B278754F5006A7C01 /* listViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E94A278754F5006A7C01 /* listViewUITestsLaunchTests.swift */; };
+		E2A3E958278755B4006A7C01 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E957278755B4006A7C01 /* Video.swift */; };
+		E2A3E95A27875F46006A7C01 /* videoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3E95927875F46006A7C01 /* videoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		E2A3E925278754F1006A7C01 /* listView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A3E928278754F1006A7C01 /* listViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewApp.swift; sourceTree = "<group>"; };
-		E2A3E92A278754F1006A7C01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2A3E92A278754F1006A7C01 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 		E2A3E92C278754F5006A7C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A3E92F278754F5006A7C01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2A3E931278754F5006A7C01 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		E2A3E944278754F5006A7C01 /* listViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A3E948278754F5006A7C01 /* listViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewUITests.swift; sourceTree = "<group>"; };
 		E2A3E94A278754F5006A7C01 /* listViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2A3E957278755B4006A7C01 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E2A3E95927875F46006A7C01 /* videoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				E2A3E928278754F1006A7C01 /* listViewApp.swift */,
-				E2A3E92A278754F1006A7C01 /* ContentView.swift */,
+				E2A3E92A278754F1006A7C01 /* VideoListView.swift */,
 				E2A3E92C278754F5006A7C01 /* Assets.xcassets */,
 				E2A3E931278754F5006A7C01 /* Persistence.swift */,
+				E2A3E957278755B4006A7C01 /* Video.swift */,
 				E2A3E933278754F5006A7C01 /* listView.xcdatamodeld */,
 				E2A3E92E278754F5006A7C01 /* Preview Content */,
+				E2A3E95927875F46006A7C01 /* videoDetailView.swift */,
 			);
 			path = listView;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A3E935278754F5006A7C01 /* listView.xcdatamodeld in Sources */,
+				E2A3E95A27875F46006A7C01 /* videoDetailView.swift in Sources */,
 				E2A3E932278754F5006A7C01 /* Persistence.swift in Sources */,
-				E2A3E92B278754F1006A7C01 /* ContentView.swift in Sources */,
+				E2A3E92B278754F1006A7C01 /* VideoListView.swift in Sources */,
 				E2A3E929278754F1006A7C01 /* listViewApp.swift in Sources */,
+				E2A3E958278755B4006A7C01 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
