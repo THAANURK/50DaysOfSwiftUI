@@ -16,6 +16,8 @@
 		E2BC17D5278B1F2700B10D4B /* ecomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC17D4278B1F2700B10D4B /* ecomTests.swift */; };
 		E2BC17DF278B1F2700B10D4B /* ecomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC17DE278B1F2700B10D4B /* ecomUITests.swift */; };
 		E2BC17E1278B1F2700B10D4B /* ecomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC17E0278B1F2700B10D4B /* ecomUITestsLaunchTests.swift */; };
+		E2BC17EF278B20C500B10D4B /* topBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC17EE278B20C400B10D4B /* topBar.swift */; };
+		E2BC17F1278B284F00B10D4B /* productCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC17F0278B284F00B10D4B /* productCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		E2BC17DA278B1F2700B10D4B /* ecomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BC17DE278B1F2700B10D4B /* ecomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecomUITests.swift; sourceTree = "<group>"; };
 		E2BC17E0278B1F2700B10D4B /* ecomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2BC17EE278B20C400B10D4B /* topBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topBar.swift; sourceTree = "<group>"; };
+		E2BC17F0278B284F00B10D4B /* productCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		E2BC17BD278B1F2500B10D4B /* ecom */ = {
 			isa = PBXGroup;
 			children = (
+				E2BC17ED278B20B200B10D4B /* Views */,
 				E2BC17BE278B1F2500B10D4B /* ecomApp.swift */,
 				E2BC17C0278B1F2500B10D4B /* ContentView.swift */,
 				E2BC17C2278B1F2700B10D4B /* Assets.xcassets */,
@@ -131,6 +136,15 @@
 				E2BC17E0278B1F2700B10D4B /* ecomUITestsLaunchTests.swift */,
 			);
 			path = ecomUITests;
+			sourceTree = "<group>";
+		};
+		E2BC17ED278B20B200B10D4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC17EE278B20C400B10D4B /* topBar.swift */,
+				E2BC17F0278B284F00B10D4B /* productCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BC17F1278B284F00B10D4B /* productCardView.swift in Sources */,
 				E2BC17C8278B1F2700B10D4B /* Persistence.swift in Sources */,
 				E2BC17CB278B1F2700B10D4B /* ecom.xcdatamodeld in Sources */,
+				E2BC17EF278B20C500B10D4B /* topBar.swift in Sources */,
 				E2BC17C1278B1F2500B10D4B /* ContentView.swift in Sources */,
 				E2BC17BF278B1F2500B10D4B /* ecomApp.swift in Sources */,
 			);
