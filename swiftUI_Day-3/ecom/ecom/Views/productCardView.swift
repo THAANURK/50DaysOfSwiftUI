@@ -16,6 +16,7 @@ struct productCardView: View {
                     .cornerRadius(20)
                     .frame(width: 300, height: 300, alignment: .center)
                     .scaledToFit()
+                    .buttonStyle(PlainButtonStyle())
             }
             
             HStack(alignment: .center){

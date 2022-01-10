@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @State var isModal: Bool = false
     var body: some View {
         VStack(alignment: .leading, spacing: 5){
             topBar()
@@ -23,7 +24,11 @@ struct ContentView: View {
                     }
                 }
             }
-            .padding()
+                .padding()
+            Text("Popular in gaming")
+                .padding()
+                .font(.system(size: 19, weight: .bold, design: .rounded))
+            ProdList()
         }
     }
 }

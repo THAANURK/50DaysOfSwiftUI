@@ -11,11 +11,16 @@ struct topBar: View {
     
     @State private var searchText: String = ""
     var body: some View {
-        HStack(alignment: .center, spacing: 30){
+        HStack(alignment: .center, spacing: 20){
             Image("profileIcon")
                 .resizable()
                 .cornerRadius(8)
                 .frame(width: 60, height: 60)
+            
+            Image(systemName: "magnifyingglass")
+                .resizable()
+                .foregroundColor(.orange)
+                .frame(width: 20, height: 20)
             
             TextField("Search here", text: $searchText)
                 .frame(width: 180, height: 45)
@@ -25,12 +30,12 @@ struct topBar: View {
             }) {
                 Image(systemName: "cart.fill")
                     .resizable()
-                    .renderingMode(.original)
-                    .foregroundColor(.orange)
-                    .background(Color.gray)
+                    .renderingMode(.none)
+                    .foregroundColor(.white)
+                    .background(Color.orange)
                     .cornerRadius(7)
                     .scaledToFit()
-                    .frame(width: 30, height: 30)
+                    .frame(width: 40, height: 40)
             }
         }
     }
