@@ -9,7 +9,18 @@ import SwiftUI
 
 struct DetailScreenView: View {
     var body: some View {
-        Text("Hello, Worldddsadsadsadasdasdas!")
+        ScrollView(.horizontal) {
+            HStack(spacing: 10) {
+                ForEach(0..<5) { _ in
+                    Image("airpods")
+                        .resizable()
+                        .frame(width: 400, height: 400)
+                        .scaledToFill()
+                }
+            }
+            Spacer()
+        }
+        .ani
     }
 }
 

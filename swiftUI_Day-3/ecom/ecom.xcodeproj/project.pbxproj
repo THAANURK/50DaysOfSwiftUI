@@ -109,11 +109,11 @@
 				E2BC17ED278B20B200B10D4B /* Views */,
 				E2BC17BE278B1F2500B10D4B /* ecomApp.swift */,
 				E2BC17C0278B1F2500B10D4B /* ContentView.swift */,
+				E2A65CB8278CAB9200724BC2 /* DetailScreenView.swift */,
 				E2BC17C2278B1F2700B10D4B /* Assets.xcassets */,
 				E2BC17C7278B1F2700B10D4B /* Persistence.swift */,
 				E2BC17C9278B1F2700B10D4B /* ecom.xcdatamodeld */,
 				E2BC17C4278B1F2700B10D4B /* Preview Content */,
-				E2A65CB8278CAB9200724BC2 /* DetailScreenView.swift */,
 			);
 			path = ecom;
 			sourceTree = "<group>";
