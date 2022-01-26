@@ -15,3 +15,17 @@ Day 3:
 * Build basic design with some components. 
 
 Day 4 : 
+
+* Built a simple ecom app home page
+
+Day 5 :
+
+* Added a simple animation and added some components.
+* Added a new detail page 
+
+Day 6 :
+
+* Added a new component for detail page.
+
+
+
